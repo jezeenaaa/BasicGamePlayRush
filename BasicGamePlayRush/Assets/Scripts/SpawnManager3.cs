@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpawnManager2 : MonoBehaviour
+public class SpawnManager3 : MonoBehaviour
 {
     public GameObject[] animalPrefabs;
     private float spawnRangeZ = 5;
-    private float spawnPosX = 35;
+    private float spawnPosX = -35;
     private float startDelay = 2;
     private float spawnInterval = 1.5f;
 
@@ -31,5 +31,3 @@ public class SpawnManager2 : MonoBehaviour
     }
 
 }
-
-
